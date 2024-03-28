@@ -2,7 +2,6 @@ package com.colak.springbeanpostprocessortutorial.person;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.BeanPropertyBindingResult;
@@ -13,15 +12,15 @@ import org.springframework.validation.Errors;
 public class PersonValidationPostProcessor implements BeanPostProcessor {
 
     private final PersonValidator personValidator;
-    // This method is invoked by the Spring container after a bean instance has been created, but before it's initialized.
 
+    // This method is called before the initialization of a bean
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         // No action needed before initialization, so return the bean as is.
         return bean;
     }
 
-    // This method is invoked by the Spring container after a bean instance has been created and initialized.
+    // This method is called after the initialization of a bean
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         // Check if the bean is an instance of the Person class

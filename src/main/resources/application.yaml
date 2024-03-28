@@ -1,0 +1,6 @@
+database:
+  connectors:
+    - type: SQL
+      connectionString: jdbc:sqlserver://example:1433
+    - type: MongoDB
+      connectionString: mongodb://example:27017
