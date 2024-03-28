@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.databaseconnectorconfig;
+package com.colak.springtutorial.dynamicbeanregistration.databaseconnectorconfig;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

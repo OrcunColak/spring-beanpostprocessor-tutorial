@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.person;
+package com.colak.springtutorial.person;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeansException;

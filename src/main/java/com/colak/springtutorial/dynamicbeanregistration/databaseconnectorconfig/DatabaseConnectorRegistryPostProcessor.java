@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.databaseconnectorconfig;
+package com.colak.springtutorial.dynamicbeanregistration.databaseconnectorconfig;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

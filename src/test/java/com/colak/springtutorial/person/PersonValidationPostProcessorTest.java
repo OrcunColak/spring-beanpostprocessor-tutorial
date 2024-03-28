@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.person;
+package com.colak.springtutorial.person;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

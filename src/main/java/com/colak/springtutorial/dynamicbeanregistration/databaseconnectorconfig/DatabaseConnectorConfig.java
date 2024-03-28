@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.databaseconnectorconfig;
+package com.colak.springtutorial.dynamicbeanregistration.databaseconnectorconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

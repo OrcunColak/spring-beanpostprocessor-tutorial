@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.person;
+package com.colak.springtutorial.person;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

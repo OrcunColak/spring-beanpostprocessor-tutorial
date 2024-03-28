@@ -1,4 +1,4 @@
-package com.colak.springbeanpostprocessortutorial.person;
+package com.colak.springtutorial.person;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
